@@ -10,9 +10,8 @@
 //
 
 #include <stdio.h>
-//#define REPEAT
 
-int main() {
+int main(){
     int i;
     int REPEAT;
     printf("Please enter a number: ");
