@@ -7,9 +7,18 @@
 //
 
 #include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+//#define REPEAT
+//
+int main() {
+    int i;
+    int REPEAT;
+    printf("Please enter a number: ");
+    scanf("%d", &REPEAT);
+    for(i=0; i<REPEAT; i = i+1){
+        printf("Hello world\n");
+        
+    }
+    
+    
     return 0;
 }
